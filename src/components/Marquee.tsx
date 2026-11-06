@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const skillsList = [
   "React", "TypeScript", "Flutter", "Laravel", "Tailwind CSS", 
-  "JavaScript", "PHP", "UI/UX Design", "Développement Web & Mobile"
+  "JavaScript", "PHP", "Développement Web & Mobile"
 ];
 
 export const Marquee: React.FC = () => {

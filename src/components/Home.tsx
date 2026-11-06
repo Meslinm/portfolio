@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Mail } from "lucide-react";
 import { motion } from "framer-motion";
-import img from "../assets/debo.png";
+import img from "../assets/debo.jpg";
 
 const roles = ["Développeuse Web", "Développeuse Mobile", "Passionnée de Code"];
 const nameLetters = "Déborah HOUNYO".split("");
@@ -33,7 +33,7 @@ const Home = () => {
           transition={{ duration: 0.5 }}
           className="inline-block px-4 py-1.5 mb-4 rounded-full bg-accent/10 border border-accent/30 text-accent text-xs font-semibold w-fit mx-auto lg:mx-0 shadow-lg shadow-accent/5"
         >
-          ✨ En fin de Licence SIL & Prête pour de nouveaux défis
+           En fin de Licence SIL & Prête pour de nouveaux défis
         </motion.div>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-center lg:text-left tracking-tight">
@@ -63,7 +63,7 @@ const Home = () => {
             transition={{ duration: 0.4 }}
             className="px-4 py-2 rounded-xl bg-base-300 border border-accent/30 text-accent text-lg lg:text-xl font-bold shadow-inner"
           >
-            🚀 {roles[roleIndex]}
+             {roles[roleIndex]}
           </motion.div>
         </div>
 
@@ -78,8 +78,9 @@ const Home = () => {
           whileTap={{ scale: 0.95 }}
         >
           <a
-            href="mailto:ton.hounyodeborah@gmail.com"
+            href="#Contact"
             className="btn btn-accent lg:w-fit shadow-xl shadow-accent/30 px-8 font-bold"
+            
           >
             <Mail className="w-5 h-5" />
             Contactez-moi
